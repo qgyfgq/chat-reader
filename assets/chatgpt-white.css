@@ -1,0 +1,157 @@
+html,
+html.dark {
+  color-scheme: light;
+  background: #ffffff;
+}
+
+body,
+.texture-bg,
+.bg-wabi-bg,
+.dark .dark\:bg-wabi-bg-dark,
+.dark\:bg-wabi-bg-dark:is(.dark *) {
+  background-color: #ffffff !important;
+  background-image: none !important;
+  color: #202123 !important;
+}
+
+.font-serif {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif !important;
+}
+
+.bg-wabi-bg\/80,
+.dark .dark\:bg-wabi-bg-dark\/80,
+.dark\:bg-wabi-bg-dark\/80:is(.dark *) {
+  background-color: rgba(255, 255, 255, .96) !important;
+}
+
+header,
+.backdrop-blur-sm {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+.bg-wabi-card,
+.dark .dark\:bg-wabi-card-dark,
+.dark\:bg-wabi-card-dark:is(.dark *) {
+  background-color: #ffffff !important;
+}
+
+.bg-wabi-card\/50,
+.dark .dark\:bg-wabi-card-dark\/50,
+.dark\:bg-wabi-card-dark\/50:is(.dark *) {
+  background-color: #f7f7f8 !important;
+}
+
+aside,
+aside.bg-wabi-card\/50,
+aside.dark\:bg-wabi-card-dark\/50 {
+  background-color: #f7f7f8 !important;
+  opacity: 1 !important;
+}
+
+.border-wabi-border,
+.dark .dark\:border-wabi-border-dark,
+.dark\:border-wabi-border-dark:is(.dark *) {
+  border-color: #e5e5e5 !important;
+}
+
+.border-wabi-border\/30,
+.border-wabi-border\/40,
+.border-wabi-border\/50,
+.dark .dark\:border-wabi-border-dark\/30,
+.dark .dark\:border-wabi-border-dark\/40,
+.dark .dark\:border-wabi-border-dark\/50 {
+  border-color: rgba(0, 0, 0, .08) !important;
+}
+
+.text-wabi-text,
+.dark .dark\:text-wabi-text-dark,
+.dark\:text-wabi-text-dark:is(.dark *) {
+  color: #202123 !important;
+}
+
+.text-wabi-muted,
+.dark .dark\:text-wabi-text-dark\/70,
+.text-wabi-text\/70 {
+  color: #6e6e80 !important;
+}
+
+.text-wabi-accent,
+.hover\:text-wabi-accent:hover {
+  color: #10a37f !important;
+}
+
+.bg-wabi-accent,
+.accent-wabi-accent {
+  background-color: #10a37f !important;
+  accent-color: #10a37f !important;
+}
+
+.bg-wabi-accent\/5,
+.hover\:bg-wabi-accent\/5:hover {
+  background-color: rgba(16, 163, 127, .06) !important;
+}
+
+.bg-wabi-accent\/10,
+.dark .dark\:bg-wabi-accent\/10,
+.hover\:bg-wabi-accent\/10:hover,
+.dark\:hover\:bg-wabi-accent\/15:hover:is(.dark *) {
+  background-color: rgba(16, 163, 127, .10) !important;
+}
+
+.bg-wabi-accent\/15,
+.hover\:bg-wabi-accent\/20:hover,
+.hover\:bg-wabi-accent\/25:hover {
+  background-color: rgba(16, 163, 127, .14) !important;
+}
+
+.border-wabi-accent,
+.focus\:border-wabi-accent:focus {
+  border-color: #10a37f !important;
+}
+
+.border-wabi-accent\/20,
+.border-wabi-accent\/30,
+.dark\:border-wabi-accent\/25:is(.dark *) {
+  border-color: rgba(16, 163, 127, .28) !important;
+}
+
+.ring-wabi-accent {
+  --tw-ring-color: #10a37f !important;
+}
+
+.ring-wabi-accent\/30 {
+  --tw-ring-color: rgba(16, 163, 127, .30) !important;
+}
+
+.ring-offset-wabi-bg,
+.dark\:ring-offset-wabi-bg-dark:is(.dark *) {
+  --tw-ring-offset-color: #ffffff !important;
+}
+
+.markdown-body code:not(pre code),
+.dark .markdown-body code:not(pre code),
+:not(.dark) .markdown-body code:not(pre code) {
+  background: #f7f7f8 !important;
+  color: #202123 !important;
+}
+
+.markdown-body th,
+.markdown-body td,
+.dark .markdown-body th,
+.dark .markdown-body td {
+  border-color: #e5e5e5 !important;
+}
+
+.search-mark,
+.dark .search-mark {
+  background: rgba(16, 163, 127, .18) !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c7c7c7 !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9b9b9b !important;
+}
